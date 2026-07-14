@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../Header";
 
-export default function LoginPage() {
+export default function RegisterPage() {
     return (
         <div>
             <main>
-                <form className="login">
-                    <h1>Login</h1>
+                <form className="register">
+                    <h1>Register</h1>
                     <input type="text" placeholder="username"></input>
                     <input type="password" placeholder="password"></input>
-                    <button>Login</button>
+                    <button>Register</button>
                 </form>
             </main>
         </div>

@@ -8,6 +8,7 @@ import LoginPage from './pages/LoginPage.js';
 import Layout from './Layout.js';
 import { Routes, Route } from 'react-router-dom';
 import IndexPage from './pages/IndexPage.js';
+import RegisterPage from './pages/RegisterPage.js';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route index element={<IndexPage />} />
         <Route path='login' element={<LoginPage />} />
-        <Route path='register' element={<Register />} />
+        <Route path='register' element={<RegisterPage />} />
       </Route>
     </Routes>
   );
